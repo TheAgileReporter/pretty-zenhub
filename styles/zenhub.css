@@ -1,0 +1,133 @@
+.zhc-board::after {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .25;
+    content: url(https://camo.githubusercontent.com/7b6426871402ca61f9255f49acfdb249a6c1c47c/68747470733a2f2f6c68352e676f6f676c6575736572636f6e74656e742e636f6d2f2d634f4c447477667646726b2f55677865766645374e6e492f41414141414141414845672f583476784b6f72386943632f73323536302f4453435f333938372d322d456469742e4a5047);
+}
+
+div.zhc-menu-bar {
+    background-color: rgba(113,169,218,1);
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.25);
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.zh-issuecard-estimate-badge {
+    padding-bottom: 0px;
+}
+
+.zh-reduced-textarea {
+    padding-right: 10px;
+}
+
+.zh-uploader-drop {
+    display: none;
+}
+
+[data-name="front end"] {
+    display: none;
+}
+
+div.discussion-item {
+    display: none;
+}
+
+div.discussion-item-ref {
+    display: block;
+}
+
+div.zhc-issue-cards::-webkit-scrollbar {
+    display: none;
+}
+
+div.zhc-issue-card {
+    border-radius: 10px;
+    margin-left: 5px;
+    max-width: 1000px;
+    background-color: rgba(255,255,255,.8);
+    transform: scale(.95);
+    transition: all .175s ease;
+}
+
+div.zhc-issue-card-milestone {
+    display: none;
+}
+
+div.zhc-issue-card:hover {
+    border: solid 1px rgba(0,0,0,.25);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    background-color: rgba(255,255,255,1);
+    transform: scale(1);
+}
+
+div.zhc-issue-card__assignee {
+    display: none;
+}
+
+div.zhc-issue-card__epic {
+    display: none;
+}
+
+div.zhc-issue-card__main {
+    flex-grow: .4;
+}
+
+div.zhc-issue-card__meta {
+    font-size: .75em;
+}
+
+div.zhc-issue-card__repo-name {
+    display: none;
+}
+
+div.zhc-issue-card__title {
+    font-size: 1.25em;
+    padding: 10px 0 5px;
+}
+
+div.zhc-issue-cards__cell {
+}
+
+div.zhc-pipeline {
+    border-radius: 15px;
+    min-width: 350px;
+    overflow: hidden;
+    background-color: rgba(208,226,242,.5);
+}
+
+div.zhc-pipeline--is-collapsed {
+    min-width: 35px;
+    width: 35px;
+}
+
+div.zhc-pipeline--is-collapsed .zhc-pipeline-header__view {
+    padding: 10px;
+}
+
+div.zhc-pipeline--is-collapsed .zhc-pipeline__title {
+    color: rgb(0,0,0);
+}
+
+div.zhc-pipeline--new-placeholder {
+    display: none;
+    min-width: 35px;
+    width: 35px;
+}
+
+div.zhc-pipeline-header {
+    background-color: rgba(113,169,218,1);
+    color: rgb(255,255,255);
+}
+
+span.zhc-label {
+    border-radius: 10px;
+    padding: 1px 8px;
+    margin-right: 5px;
+}

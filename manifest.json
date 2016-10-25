@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "(Pretty) ZenHub",
+  "description": "Helps make ZenHub a bit prettier than it is.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+      {
+        "matches": ["https://github.com/*"],
+        "css" : ["styles/zenhub.css"]
+      }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://github.com/"
+  ]
+}
